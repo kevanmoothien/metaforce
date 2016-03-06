@@ -31,7 +31,7 @@ module Metaforce
   end
 
   class Configuration
-    # The Salesforce API version to use. Defaults to 23.0
+    # The Salesforce API version to use. Defaults to 36.0
     attr_accessor :api_version
     # The username to use during login.
     attr_accessor :username
@@ -57,7 +57,7 @@ module Metaforce
     end
 
     def api_version
-      @api_version ||= '26.0'
+      @api_version ||= '36.0'
     end
 
     def host
