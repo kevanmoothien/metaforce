@@ -60,10 +60,10 @@ module Metaforce
       @api_version ||= '36.0'
     end
 
-    def host 
+    def host
       @host ||= 'login.salesforce.com'
     end
-
+ 
     def authentication_handler
       @authentication_handler ||= lambda { |client, options|
         Metaforce.login(options)
