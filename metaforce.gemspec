@@ -30,7 +30,7 @@ EOL
   s.add_dependency 'rb-fsevent', '~> 0.9.7'
 
   s.add_development_dependency 'rake'
-  s.add_development_dependency 'rspec', '~> 3.4.0'
+  s.add_development_dependency 'rspec', '~> 2.12.0'
   s.add_development_dependency 'webmock'
   s.add_development_dependency 'savon_spec', '~> 1.3.0'
 end
